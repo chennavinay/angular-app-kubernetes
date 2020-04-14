@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: myacrvoting.azurecr.io/chennavinay/angular-app-kubernetes:#{Build.BuildId}#
+        image: myacrvoting.azurecr.io/chennavinay/angular-app-kubernetes:150
         ports: 
         - containerPort: 80 
 --- 
